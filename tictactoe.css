@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    text-align: center;
+    background-image: url('body.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:#EEEEEE;
+}
+#header{
+    display:flex;
+    justify-content:space-around;
+    background-color: #1D1616;
+    height:8vh;
+    align-items: center;
+    color:#EEEEEE;
+}
+#header-bar{
+    display:flex;
+    background-color: #8E1616;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+/*tic tact toe game stylingh*/
+.tictactoe{
+    display:flex;
+    height:70vh;
+    width:auto;
+    margin-top:2.5rem;
+    justify-content:center;
+    align-items:center;
+}
+.game{
+    height:70vh;
+    width:35vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius:10%;
+    border:none;
+    margin-left:10px;
+    background-color:#EEEEEE;
+    cursor:pointer;
+    font-size:8vmin;
+    color:#cd3d3d;
+    border:none;
+    
+}
+.reset-button{
+    padding:1rem;
+    font-size:1.25rem;
+    background-color: #8E1616;
+    color:#EEEEEE;
+    border-radius:3rem;
+    border:none;
+    cursor:pointer;
+}
+.reset-button:hover{
+    background-color: aqua;
+    color:black;
+}
+#msg{
+    font-size:4rem;
+    display:hide;
+}
+
