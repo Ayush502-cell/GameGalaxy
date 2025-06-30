@@ -37,10 +37,10 @@
     flex-wrap: wrap;
     height: auto;
     width: 100vw;
-    background-image: url('body.gif');
     background-size: cover;
     background-position: center;
     padding: 20px;
+    background-image: url('Images/body.gif');
 }
 
 .game-image {
@@ -162,7 +162,7 @@
     flex-wrap: wrap;
     height: auto;
     width: 100vw;
-    background-image: url('body.gif');
+    background-image: url('Images/body.gif');
     background-size: cover;
     background-position: center;
     padding: 20px;
